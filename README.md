@@ -58,3 +58,4 @@ Don't forget to select proper board type after ESP8266 package installation. In 
 # Assembly
     
 After obtaining all the components, we can start by soldering the goldpins to the Wemos D1 Mini Pro and the BME680 just like on the picture above. NodeMCU V2 is soldered by default. After soldering all the pins, plug Wemos/NodeMCU and the BME680 to the breadboard just like on the picture below. Plug the cables next to the pins and connect the components just like on the picture below.
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/NodeMCU_BME680_OLED.jpg)
