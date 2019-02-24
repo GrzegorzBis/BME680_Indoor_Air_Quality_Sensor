@@ -53,8 +53,18 @@ Don't forget to select proper board type after ESP8266 package installation. In 
 - Adafruit Unified Sensor by Adafruit, version 1.0.2
 - ThingSpeak by MathWorks version 1.4.3
 10. Clone or download a zip file with the source code for the BME680 Indoor Air Quality Sensor from https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor
-10. Congratulations! You successfully installed the software. The next installation is optional. If you want to be able to have access to your measurements online, or you want to track history of your measurements you have to set the Thingspeak support. 
-11. Create an account and login. Then, go to Channels > New Channel. Fill in the boxes![enter image description here](https://lh3.googleusercontent.com/ZkXxpW7bZCZfdU1JiwZJkwovNoAJE-Ld0HFGkM5IKv9T268GzvdqDA7e6uap-H6l2P1viHxREU0)
+10. Congratulations! You successfully installed the software. The next installation steps are optional. If you want to be able to have access to your measurements online, or you want to track history of your measurements you have to set the Thingspeak support. This is free service, where sensor data can be stored and retrived later.
+11. Create an account.
+
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/SCReen2.jpg)
+
+12. After successfull email verification, complete your profile configuraion and please login to the thnigspeak.com.
+13. Select ´New Channel´to configure thnigspeak channel which will be used to collect and visualize IAQ sensor data. Please fill with data the following fields on ´New Channel´ page (see image below): Name, Field1, Field2, Field3, Field4. The name given in 'Name' field on 'New Channel' page can be arbitrary, it only serves as information to you describing your channel.
+
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/NewChannel.jpg)
+
+14. Go to 'Channels'->'My Channels', select channel you just created and select 'API Keys' tab. Write down the Write API Key and Channel ID from this page, you will need them later to configure thingspeak settings on IAQ sensor configuration screen.
+
 # Assembly
     
 After obtaining all the components, we can start by soldering the goldpins to the Wemos D1 Mini Pro and the BME680 just like on the picture below.
@@ -87,5 +97,6 @@ When the sensor is loged in into the WiFi network, further access to the IAQ sen
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/homepage.jpg)
 In order to perform sensor configuration, please select the configuration button on the sensor home page. On the picture below the IAQ sensor configuration page is presented.
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/configuration.jpg)
+To enable IAQ sensor sending measurement data to ThinSpeak clound please tick the check box 'API thinkspeak.com' and enter 'API key' and 'Channel Number' received during the thingspeak.com configuration setup.
 In order to get access to the current IAQ sensor readings, please select the current data button on the sensor home page. On the picture below the IAQ sensor current data page is presented.
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/currentdata.jpg)
