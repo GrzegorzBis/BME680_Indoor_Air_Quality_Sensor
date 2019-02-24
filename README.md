@@ -4,26 +4,26 @@ An indoor air quality sensor based on BME680 measures temperature, humidity, bar
 
 # Components
 
-**[BME680 board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)** is a sensor that measures temperature, pressure, humidity and gas concentration. More details on the sensor can be found in the datasheet, which is available here: [BME680 datasheet](https://www.bosch-sensortec.com/bst/products/all_products/bme680) There are many variants of BME680 boards available, in my project I am using BME680 from nettigo: [BME680 Wemos board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)
+- **[BME680 board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)** is a sensor that measures temperature, pressure, humidity and gas concentration. More details on the sensor can be found in the datasheet, which is available here: [BME680 datasheet](https://www.bosch-sensortec.com/bst/products/all_products/bme680) There are many variants of BME680 boards available, in my project I am using BME680 from nettigo: [BME680 Wemos board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)
 
-**[Breadboard](https://nettigo.pl/products/plytka-stykowa-duza-830-otworow)**- I used a regular breadboard with 63 rows of pins, however you only need 35. I wanted to avoid soldering, however it will be inevitable. Breadboard allows you to connect all the devices with cables. 
+- **[Breadboard](https://nettigo.pl/products/plytka-stykowa-duza-830-otworow)**- I used a regular breadboard with 63 rows of pins, however you only need 35. I wanted to avoid soldering, however it will be inevitable. Breadboard allows you to connect all the devices with cables.
 
-**[Wemos D1 mini pro board](https://nettigo.pl/products/modul-wifi-wemos-d1-mini-pro)** is a small single board computer. It has 16MB of flash memory and I2C bus to communicate with external sensors. It has a built-in Wi-Fi module. For host access and power it uses a micro usb port.  
+- **[Wemos D1 mini pro board](https://nettigo.pl/products/modul-wifi-wemos-d1-mini-pro)** is a small single board computer. It has 16MB of flash memory and I2C bus to communicate with external sensors. It has a built-in Wi-Fi module. For host access and power it uses a micro usb port.
 
-**[OLED Screen](https://nettigo.pl/products/wyswietlacz-oled-0-96-i2c-128x64-niebieski)**- I used a regular blue OLED screen with a resolution of 128 x 64 pixels. It is very simple and can be easily plugged. 
+- **[OLED Screen](https://nettigo.pl/products/wyswietlacz-oled-0-96-i2c-128x64-niebieski)**- I used a regular blue OLED screen with a resolution of 128 x 64 pixels. It is very simple and can be easily plugged.
 
-**Soldering kit**- In order to solder all the necessary elements with the goldpins, you will need:
+- **[10cm Male-Male Cables](https://nettigo.pl/products/przewody-m-m-10-cm-40-szt)**
 
--   [Soldering iron](https://nettigo.pl/products/stacja-lutownicza-kolbowa-yihua-936a-50-100w-200-480c)
+- **[Goldpins](https://nettigo.pl/products/goldpin-zlacze-wtyk-prosty-1x40-raster-2-54-mm)**
+
+- **Soldering kit**- In order to solder all the necessary elements with the goldpins, you will need:
+     - [Soldering iron](https://nettigo.pl/products/stacja-lutownicza-kolbowa-yihua-936a-50-100w-200-480c)
+
+     - [Solder - tin and iron alloy](https://nettigo.pl/products/cyna-0-70mm-100g-sn60pb40-sw26-cynel)
     
--   [Solder - tin and iron alloy](https://nettigo.pl/products/cyna-0-70mm-100g-sn60pb40-sw26-cynel)
+     - [Rosin](https://nettigo.pl/products/kalafonia-lutownicza-45g-cynel)
     
--   [Rosin](https://nettigo.pl/products/kalafonia-lutownicza-45g-cynel)
-    
--   [Cleaner](https://nettigo.pl/products/czyscik-do-grota-lutowniczego-z-podstawka) 
-
-**[10cm Male-Male Cables](https://nettigo.pl/products/przewody-m-m-10-cm-40-szt)**
-
+     - [Cleaner](https://nettigo.pl/products/czyscik-do-grota-lutowniczego-z-podstawka) 
 # Software
 
 After connecting your board to a PC using USB cable, you need to download set of neccessary files.
