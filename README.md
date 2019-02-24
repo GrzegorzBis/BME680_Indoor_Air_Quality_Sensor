@@ -58,16 +58,34 @@ Don't forget to select proper board type after ESP8266 package installation. In 
 # Assembly
     
 After obtaining all the components, we can start by soldering the goldpins to the Wemos D1 Mini Pro and the BME680 just like on the picture below.
+
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/BME680_WITH_GOLDPINS.jpg)
+
 NodeMCU V2 has goldpins soldered by default. In the next step plug Wemos/NodeMCU, the BME680 and OLED screen boards to the breadboard just like on the picture at the top of this page. Plug the cables using schematics shown below.
 **Connection scheme for BME680 Indoor Air Quality Sensor with Wemos**
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/Wemos_BME680_OLED.jpg)
+
 For Wemos I2C bus where BME680 and OLED screen will be connected has the following layout:
 - D1 pin -> I2C SCL
 - D2 pin -> I2C SDA
+
 **Connection scheme for BME680 Indoor Air Quality Sensor with NodeMCU**
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/NodeMCU_BME680_OLED.jpg)
+
 For NodeMCU I2C bus where BME680 and OLED screen will be connected has the following layout:
 - D3 pin -> I2C SDA
-- D3 pin -> I2C SCL
+- D4 pin -> I2C SCL
+
 Both BME680 board and OLED screen are powered from 3.3V pin.
+
+# IAQ Sensor User Guide
+
+After the IAQ sensor software is installed on the sensor, please login to the IAQsensor-ID WIFI network (where ID is the unique number assigned to the sensor board). The following screen will appear after login in:
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/Login_1.jpg)
+Please select one of the available WiFi networks and provide password for it. In the next step IAQ sensor will automatically log in into the selected WiFi network. New IP address assigned automatically to the IAQ sensor will be displayed on the IAQ sensor screen.
+When the sensor is loged in into the WiFi network, further access to the IAQ sensor can be done using Web browser, eg. google-chrome or mozilla-firefox and the IP address displayed on the sensor screen. On the picture below the IAQ sensor home page is presented.
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/homepage.jpg)
+In order to perform sensor configuration, please select the configuration button on the sensor home page. On the picture below the IAQ sensor configuration page is presented.
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/configuration.jpg)
+In order to get access to the current IAQ sensor readings, please select the current data button on the sensor home page. On the picture below the IAQ sensor current data page is presented.
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/currentdata.jpg)
