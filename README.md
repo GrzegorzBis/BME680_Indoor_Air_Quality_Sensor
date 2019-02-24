@@ -57,7 +57,17 @@ Don't forget to select proper board type after ESP8266 package installation. In 
 11. Create an account and login. Then, go to Channels > New Channel. Fill in the boxes![enter image description here](https://lh3.googleusercontent.com/ZkXxpW7bZCZfdU1JiwZJkwovNoAJE-Ld0HFGkM5IKv9T268GzvdqDA7e6uap-H6l2P1viHxREU0)
 # Assembly
     
-After obtaining all the components, we can start by soldering the goldpins to the Wemos D1 Mini Pro and the BME680 just like on the picture above. NodeMCU V2 is soldered by default. After soldering all the pins, plug Wemos/NodeMCU and the BME680 to the breadboard just like on the picture below. Plug the cables next to the pins and connect the components just like on the picture below.
+After obtaining all the components, we can start by soldering the goldpins to the Wemos D1 Mini Pro and the BME680 just like on the picture below.
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/BME680_WITH_GOLDPINS.jpg)
+NodeMCU V2 has goldpins soldered by default. In the next step plug Wemos/NodeMCU, the BME680 and OLED screen boards to the breadboard just like on the picture at the top of this page. Plug the cables using schematics shown below.
+**Connection scheme for BME680 Indoor Air Quality Sensor with Wemos**
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/Wemos_BME680_OLED.jpg)
+For Wemos I2C bus where BME680 and OLED screen will be connected has the following layout:
+- D1 pin -> I2C SCL
+- D2 pin -> I2C SDA
+**Connection scheme for BME680 Indoor Air Quality Sensor with NodeMCU**
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/NodeMCU_BME680_OLED.jpg)
-
+For NodeMCU I2C bus where BME680 and OLED screen will be connected has the following layout:
+- D3 pin -> I2C SDA
+- D3 pin -> I2C SCL
+Both BME680 board and OLED screen are powered from 3.3V pin.
