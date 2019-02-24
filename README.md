@@ -1,6 +1,13 @@
 # Introduction
-An indoor air quality sensor based on BME680 measures temperature, humidity, barometric pressure and gas resistance. Below, you can find the information need to build the device including control software. Control software for the sensor is based on open software from www.luftdaten.info Outdoor Air Quality sensor project.
+An indoor air quality network sensor based on BME680 measures temperature, humidity, barometric pressure and gas resistance. Below, you can find the information need to build the device together with control software.
+
  ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/BME680_Indoor_Air_Quality_Sensor.jpg)
+
+Control software for the sensor is based on open software from www.luftdaten.info Outdoor Air Quality sensor project. It provides nice WEB based interface to all the features of the sensor.
+
+ ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/currentdata.jpg)
+ 
+Additionally sensor can transmit measurements to the thingspeak.com cloud for further analysis.
 
 # Components
 
