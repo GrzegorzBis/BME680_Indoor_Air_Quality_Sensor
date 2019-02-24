@@ -4,13 +4,13 @@ An indoor air quality sensor based on BME680 measures temperature, humidity, bar
 
 # Components
 
-**BME680** is a sensor that measures temperature, pressure, humidity and gas concentration. More details on the sensor can be found in the datasheet, which is available here: [BME680 datasheet](https://www.bosch-sensortec.com/bst/products/all_products/bme680) There are many variants of BME680 boards available, in my project I am using BME680 from nettigo: [BME680 Wemos board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)
+**[BME680 board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)** is a sensor that measures temperature, pressure, humidity and gas concentration. More details on the sensor can be found in the datasheet, which is available here: [BME680 datasheet](https://www.bosch-sensortec.com/bst/products/all_products/bme680) There are many variants of BME680 boards available, in my project I am using BME680 from nettigo: [BME680 Wemos board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)
 
-**Breadboard**- I used a regular breadboard with 63 rows of pins, however you only need 35. I wanted to avoid soldering, however it will be inevitable. Breadboard allows you to connect all the devices with cables. [Breadboard](https://nettigo.pl/products/plytka-stykowa-duza-830-otworow)
+**[Breadboard](https://nettigo.pl/products/plytka-stykowa-duza-830-otworow)**- I used a regular breadboard with 63 rows of pins, however you only need 35. I wanted to avoid soldering, however it will be inevitable. Breadboard allows you to connect all the devices with cables. 
 
-**Wemos D1 mini Pro** is a small single board computer. It has 16MB of flash memory and I2C bus to communicate with external sensors. It has a built-in Wi-Fi module. For host access and power it uses a micro usb port.  [Wemos D1 mini pro board](https://nettigo.pl/products/modul-wifi-wemos-d1-mini-pro)
+**[Wemos D1 mini pro board](https://nettigo.pl/products/modul-wifi-wemos-d1-mini-pro)** is a small single board computer. It has 16MB of flash memory and I2C bus to communicate with external sensors. It has a built-in Wi-Fi module. For host access and power it uses a micro usb port.  
 
-**Screen**- I used a regular blue OLED screen with a resolution of 128 x 64 pixels. It is very simple and can be easily plugged. [OLED Screen](https://nettigo.pl/products/wyswietlacz-oled-0-96-i2c-128x64-niebieski)
+**[OLED Screen](https://nettigo.pl/products/wyswietlacz-oled-0-96-i2c-128x64-niebieski)**- I used a regular blue OLED screen with a resolution of 128 x 64 pixels. It is very simple and can be easily plugged. 
 
 **Soldering kit**- In order to solder all the necessary elements with the goldpins, you will need:
 
@@ -58,4 +58,6 @@ Don't forget to select proper board type after ESP8266 package installation. In 
 # Assembly
     
 After obtaining all the components, we can start by soldering the goldpins to the Wemos D1 Mini Pro and the BME680 just like on the picture above. NodeMCU V2 is soldered by default. After soldering all the pins, plug Wemos/NodeMCU and the BME680 to the breadboard just like on the picture below. Plug the cables next to the pins and connect the components just like on the picture below.
+![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/Wemos_BME680_OLED.jpg)
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/NodeMCU_BME680_OLED.jpg)
+
