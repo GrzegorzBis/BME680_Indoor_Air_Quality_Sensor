@@ -13,7 +13,7 @@ Additionally sensor can transmit measurements to the thingspeak.com cloud for fu
 
 - **[BME680 board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)** is a sensor that measures temperature, pressure, humidity and gas concentration. More details on the sensor can be found in the datasheet, which is available here: [BME680 datasheet](https://www.bosch-sensortec.com/bst/products/all_products/bme680) There are many variants of BME680 boards available, in my project I am using BME680 from nettigo: [BME680 Wemos board](https://nettigo.pl/products/modul-czujnika-bme680-dla-wemos-d1-mini)
 
-- **[Breadboard](https://nettigo.pl/products/plytka-stykowa-duza-830-otworow)**- I used a regular breadboard with 63 rows of pins, however you only need 35. I wanted to avoid soldering, however it will be inevitable. Breadboard allows you to connect all the devices with cables.
+- **[Breadboard](https://nettigo.pl/products/plytka-stykowa-duza-830-otworow)**- I used a regular breadboard with 63 rows of pins, however you only need at least 40. I wanted to avoid soldering, however it will be inevitable. Breadboard allows you to connect all the devices with cables.
 
 - **[Wemos D1 mini pro board](https://nettigo.pl/products/modul-wifi-wemos-d1-mini-pro)** is a small single board computer. It has 16MB of flash memory and I2C bus to communicate with external sensors. It has a built-in Wi-Fi module. For host access and power it uses a micro usb port.
 
@@ -65,8 +65,8 @@ Don't forget to select proper board type after ESP8266 package installation. In 
 
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/SCReen2.jpg)
 
-12. After successfull email verification, complete your profile configuraion and please login to the thnigspeak.com.
-13. Select ´New Channel´to configure thnigspeak channel which will be used to collect and visualize IAQ sensor data. Please fill with data the following fields on ´New Channel´ page (see image below): Name, Field1, Field2, Field3, Field4. The name given in 'Name' field on 'New Channel' page can be arbitrary, it only serves as information to you describing your channel.
+12. After successful email verification, complete your profile configuraion and please login to the thnigspeak.com.
+13. Select ´New Channel´to configure thingspeak channel which will be used to collect and visualize IAQ sensor data. Please fill with data the following fields on ´New Channel´ page (see image below): Name, Field1, Field2, Field3, Field4. The name given in 'Name' field on 'New Channel' page can be arbitrary, it only serves as information to you describing your channel.
 
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/NewChannel.jpg)
 
