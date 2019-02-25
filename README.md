@@ -104,6 +104,6 @@ When the sensor is loged in into the WiFi network, further access to the IAQ sen
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/homepage.jpg)
 In order to perform sensor configuration, please select the configuration button on the sensor home page. On the picture below the IAQ sensor configuration page is presented.
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/configuration.jpg)
-To enable IAQ sensor sending measurement data to ThinSpeak clound please tick the check box 'API thinkspeak.com' and enter 'API key' and 'Channel Number' received during the thingspeak.com configuration setup.
+To enable IAQ sensor sending measurement data to ThingSpeak clound please tick the check box 'API thingspeak.com' and enter 'API key' and 'Channel Number' received during the thingspeak.com configuration setup.
 In order to get access to the current IAQ sensor readings, please select the current data button on the sensor home page. On the picture below the IAQ sensor current data page is presented.
 ![enter image description here](https://github.com/GrzegorzBis/BME680_Indoor_Air_Quality_Sensor/blob/master/pictures/currentdata.jpg)
